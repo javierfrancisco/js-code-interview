@@ -1,0 +1,19 @@
+{
+  "name": "js-code-interview",
+  "version": "1.0.0",
+  "description": "JavaScript code interview practice repository with algorithmic problems",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "test:watch": "NODE_OPTIONS='--experimental-vm-modules' jest --watch",
+    "test:coverage": "NODE_OPTIONS='--experimental-vm-modules' jest --coverage",
+    "demo": "node examples/demo.js"
+  },
+  "keywords": ["algorithms", "interview", "javascript", "data-structures"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
